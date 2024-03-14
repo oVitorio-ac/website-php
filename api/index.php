@@ -26,6 +26,10 @@
               </div>
               <button type="submit" class="btn btn-primary">Entrar</button>
             </form>
+            <!-- Botão de entrada como convidado -->
+            <form action="home.php" method="post">
+              <button type="submit" class="btn btn-secondary mt-3">Entrar como Convidado</button>
+            </form>
           </div>
         </div>
       </div>

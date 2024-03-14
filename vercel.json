@@ -1,10 +1,13 @@
 {
-    "functions": {
-      "api/*.php": {
-        "runtime": "vercel-php@0.7.0"
-      }
-    },
-    "routes": [
-      { "src": "/(.*)",  "dest": "/api/index.php" }
-    ]
-  }
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.7.0"
+    }
+  },
+  "routes": [
+    { "src": "/home.php", "dest": "/api/home.php" },
+    { "src": "/desenvolvedor.php", "dest": "/api/desenvolvedor.php" },
+    { "src": "/banco-de-dados.php", "dest": "/api/banco-de-dados.php" },
+    { "src": "/(.*)",  "dest": "/api/index.php" }
+  ]
+}
